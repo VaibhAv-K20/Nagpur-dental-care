@@ -1,5 +1,5 @@
-// Nagpur Dental Care - Static Data Showcase
-
+import DrMaleImg from "./assets/images/dentist_male_1782905191847.jpg";
+import DrFemaleImg from "./assets/images/dentist_female_1782905206342.jpg";
 export interface Doctor {
   id: string;
   name: string;
@@ -50,9 +50,6 @@ export const CLINIC_CONTACT = {
   },
   mapUrl: "https://maps.google.com/?q=Dharampeth+Nagpur"
 };
-
-const DrMaleImg = "/src/assets/images/dentist_male_1782905191847.jpg";
-const DrFemaleImg = "/src/assets/images/dentist_female_1782905206342.jpg";
 
 export const DOCTORS: Doctor[] = [
   {

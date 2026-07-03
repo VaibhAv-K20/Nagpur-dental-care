@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import {
   Sparkles,
@@ -361,7 +361,7 @@ Please confirm if this slot is available at your Dharampeth, Nagpur clinic. Than
           {/* Card 2: Hero Visual Lobby Frame Card */}
           <div className="lg:col-span-2 bg-slate-900 rounded-[2rem] p-2 relative overflow-hidden shadow-sm min-h-[350px] lg:min-h-auto group">
             <img 
-              src="/src/assets/images/clinic_interior_1782905178200.jpg" 
+              src={new URL('./assets/images/clinic_interior_1782905178200.jpg', import.meta.url).href}
               alt="Nagpur Dental Care modern patient lobby lounge" 
               className="w-full h-full object-cover rounded-[1.8rem] brightness-90 group-hover:scale-101 transition-transform duration-500"
               referrerPolicy="no-referrer"
@@ -758,7 +758,7 @@ Please confirm if this slot is available at your Dharampeth, Nagpur clinic. Than
               {/* Patient visual framework */}
               <div className="relative rounded-2xl overflow-hidden shadow-md bg-white border border-slate-100 p-2 group">
                 <img 
-                  src="/src/assets/images/happy_patient_1782905223882.jpg" 
+                  src={new URL('./assets/images/happy_patient_1782905223882.jpg', import.meta.url).href}
                   alt="Happy client smiling displaying perfect clean white teeth" 
                   className="rounded-xl w-full object-cover aspect-[4/3] group-hover:scale-[1.01] transition-transform duration-500"
                   referrerPolicy="no-referrer"
