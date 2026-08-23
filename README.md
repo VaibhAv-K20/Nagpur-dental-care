@@ -6,7 +6,7 @@ A modern, fully responsive dental clinic website template built with React, Type
 
 ## 🌐 Live Demo
 
-[View Live Site](https://vaibhav-k20.github.io/Nagpur-dental-care)
+[View Live Site](https://nagpur-dental-care.netlify.app/)
 
 ---
 
